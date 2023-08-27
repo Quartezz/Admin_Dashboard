@@ -122,4 +122,38 @@ body {
     color: black;
     padding: 1rem;
     grid-area: 1 / 1 / -1 / 2;
+    background-color: blue;
+}
+
+.sidebar .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.sidebar .logo .sidebar-img {
+    cursor: pointer;
+    height: 3rem;
+}
+
+.sidebar .logo h3 {
+    margin: 0;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.sidebar ul {
+    padding: 0;
+}
+
+.sidebar ul li {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.sidebar ul li img {
+    height: 2rem;
+    cursor: pointer;
 }
